@@ -11,4 +11,4 @@ pool.execute(sql, function(err,res){
     if(err) throw err;
     console.log(res);
 }); 
-module.exports = pool.promise();
+module.exports = pool.promise(); 
