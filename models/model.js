@@ -12,3 +12,4 @@ class Model {
         return rees;
     }
 }
+module.exports = Model;
