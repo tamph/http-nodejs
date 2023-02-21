@@ -5,7 +5,7 @@ exports.increase = async (req, res, next) => {
 }
 exports.value = async (req, res, next) => {
     const val = new Model();
-    const res = val.value();
-    res.send(res)
+    const ste = val.value();
+    res.send(ste)
 
 }
