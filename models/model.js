@@ -9,6 +9,7 @@ class Model {
     async value(){
         let sql = 'SELECT * FROM clicky';
         const rees = await db.execute(sql)
+        console.log(rees)
         return rees;
     }
 }
