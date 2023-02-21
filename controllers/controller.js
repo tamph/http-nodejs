@@ -1,4 +1,4 @@
-const model = require ('../models/model')
+const Model = require ('../models/model')
 
 exports.increase = async (req, res, next) => {
     res.send('saaa')
