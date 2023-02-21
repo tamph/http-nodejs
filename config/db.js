@@ -6,9 +6,9 @@ const pool = mysql.createPool({
     database:'railway',
     password: 'IEaSsW6CLZfLwSu8nTBS',
 })
-let sql = 'SELECT * FROM clicky;';
-pool.execute(sql, function(err,res){
-    if(err) throw err;
-    console.log(res);
-}); 
+// let sql = 'SELECT * FROM clicky;';
+// pool.execute(sql, function(err,res){
+//     if(err) throw err;
+//     console.log(res);
+// }); 
 module.exports = pool.promise(); 
