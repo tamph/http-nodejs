@@ -4,6 +4,8 @@ exports.increase = async (req, res, next) => {
     res.send('saaa')
 }
 exports.value = async (req, res, next) => {
-    res.send('safaa')
+    const val = new Model();
+    const res = val.value();
+    res.send(res)
 
 }
